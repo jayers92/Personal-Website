@@ -1,0 +1,11 @@
+.navbar__menu ul {
+  text-align: center;
+}
+
+.navbar__menu li {
+  display: inline-block;
+  margin: 20px;
+  font-family: 'Scheherazade New', serif;
+  font-size: 22px;
+  
+}
