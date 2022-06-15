@@ -1,11 +1,37 @@
 .navbar__menu ul {
-  text-align: center;
+    text-align: center;
+  }
+  
+.navbar__menu li {
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Scheherazade New', serif;
+    font-size: 22px;
+  }
+  
+h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 65px;
+    font-style: italic;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 10s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100%{ opacity: 1;}
+  0%{opacity: 0;}
 }
 
-.navbar__menu li {
+
+span {
   display: inline-block;
-  margin: 20px;
-  font-family: 'Scheherazade New', serif;
-  font-size: 22px;
-  
 }
+
+/*.video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0
+}*/
